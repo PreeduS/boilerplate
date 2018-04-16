@@ -1,0 +1,10 @@
+C:\Users\Marian\Desktop\dnhot\obj\Debug\netcoreapp2.0\dnhot.csproj.CoreCompileInputs.cache
+C:\Users\Marian\Desktop\dnhot\obj\Debug\netcoreapp2.0\dnhot.AssemblyInfoInputs.cache
+C:\Users\Marian\Desktop\dnhot\obj\Debug\netcoreapp2.0\dnhot.AssemblyInfo.cs
+C:\Users\Marian\Desktop\dnhot\bin\Debug\netcoreapp2.0\dnhot.deps.json
+C:\Users\Marian\Desktop\dnhot\bin\Debug\netcoreapp2.0\dnhot.runtimeconfig.json
+C:\Users\Marian\Desktop\dnhot\bin\Debug\netcoreapp2.0\dnhot.runtimeconfig.dev.json
+C:\Users\Marian\Desktop\dnhot\bin\Debug\netcoreapp2.0\dnhot.dll
+C:\Users\Marian\Desktop\dnhot\bin\Debug\netcoreapp2.0\dnhot.pdb
+C:\Users\Marian\Desktop\dnhot\obj\Debug\netcoreapp2.0\dnhot.dll
+C:\Users\Marian\Desktop\dnhot\obj\Debug\netcoreapp2.0\dnhot.pdb

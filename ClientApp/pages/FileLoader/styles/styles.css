@@ -1,0 +1,9 @@
+.bg-image{
+    border:1px solid gray;
+    width:200px;
+    height:150px;
+    background:url('~/commons/images/wp.png');
+    background-repeat: repeat;
+    background-position: 0px 0px;     
+    background-size:contain; 
+}
