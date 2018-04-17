@@ -9205,7 +9205,7 @@
       ]
     },
     "System.Interactive.Async/3.1.1": {
-      "sha512": "CRd+8T1QsDCWKsNCOBNk2qun+J4yj0WsiJmyFEzuhbsL9096rxsvCB1Wt0hRSdZiycsqVpE+zk3/gmvk3O8GFQ==",
+      "sha512": "hZccYiIE5RS1/J9Tb/BNtosAGVggdlsJm4Ojdu+gDV0p4AIi+LUfUogMKkRacljQEJd2AG6vYzvcjhQFkqoZmw==",
       "type": "package",
       "path": "system.interactive.async/3.1.1",
       "files": [
@@ -9595,7 +9595,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "4jMPG0QE+70fSX2n9GJk1FWzmgAEoT23ONPwNgoXs9by2CTVPnYZzacSfU+ei/Jg+XkvtX0P33GcDfSWc8W0Ew==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -10034,7 +10034,7 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "CAeSAusrKdNTSdHuaHqCBXnEUR8atYhMo0/DZ5zWDJGrweqMXUmOhcVrCYcJrxzG7sO9NnUtRdzyPBJLGymDfw==",
+      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
@@ -10917,7 +10917,7 @@
       ]
     },
     "System.Runtime.Serialization.Json/4.0.2": {
-      "sha512": "8zQwBqvRTu9omWJLOzGgSVKrMwFzmCxTMAH28kLPtsCTyGSSjSNI73h/FhXhfClLMiIHw9KS6E0E4NWkWfStcQ==",
+      "sha512": "+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.2",
       "files": [
@@ -12362,7 +12362,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.0.11": {
-      "sha512": "8aMh74Hy1AIQBhQcPTojm/GfiKwBLDLFBsEghwUAsN4TCuzv4FcrceJYVemyZYxU7kHS8B5Zv2olnKxCv4ShiQ==",
+      "sha512": "FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.0.11",
       "files": [
@@ -12535,23 +12535,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marian\\.nuget\\packages\\": {},
+    "C:\\Users\\laurentiu.tamasila\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marian\\Desktop\\dnhot\\dnhot.csproj",
+      "projectUniqueName": "C:\\Users\\laurentiu.tamasila\\Desktop\\boilerplate\\dnhot.csproj",
       "projectName": "dnhot",
-      "projectPath": "C:\\Users\\Marian\\Desktop\\dnhot\\dnhot.csproj",
-      "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marian\\Desktop\\dnhot\\obj\\",
+      "projectPath": "C:\\Users\\laurentiu.tamasila\\Desktop\\boilerplate\\dnhot.csproj",
+      "packagesPath": "C:\\Users\\laurentiu.tamasila\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\laurentiu.tamasila\\Desktop\\boilerplate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Marian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\laurentiu.tamasila\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12559,6 +12559,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://10.0.213.20/nuget": {},
+        "http://wilbuild1.online.greenfieldnet.com:8080/guestAuth/app/nuget/v1/FeedService.svc": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12575,18 +12577,18 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.3"
+            "version": "[2.0.3, )"
           },
           "Microsoft.AspNetCore.SpaServices": {
             "target": "Package",
-            "version": "2.0.3"
+            "version": "[2.0.3, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [

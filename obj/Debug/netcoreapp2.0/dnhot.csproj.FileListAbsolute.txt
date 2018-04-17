@@ -8,3 +8,14 @@ C:\Users\Marian\Desktop\dnhot\bin\Debug\netcoreapp2.0\dnhot.dll
 C:\Users\Marian\Desktop\dnhot\bin\Debug\netcoreapp2.0\dnhot.pdb
 C:\Users\Marian\Desktop\dnhot\obj\Debug\netcoreapp2.0\dnhot.dll
 C:\Users\Marian\Desktop\dnhot\obj\Debug\netcoreapp2.0\dnhot.pdb
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\bin\Debug\netcoreapp2.0\dnhot.deps.json
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\bin\Debug\netcoreapp2.0\dnhot.runtimeconfig.json
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\bin\Debug\netcoreapp2.0\dnhot.runtimeconfig.dev.json
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\bin\Debug\netcoreapp2.0\dnhot.dll
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\bin\Debug\netcoreapp2.0\dnhot.pdb
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\obj\Debug\netcoreapp2.0\dnhot.csprojResolveAssemblyReference.cache
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\obj\Debug\netcoreapp2.0\dnhot.csproj.CoreCompileInputs.cache
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\obj\Debug\netcoreapp2.0\dnhot.AssemblyInfoInputs.cache
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\obj\Debug\netcoreapp2.0\dnhot.AssemblyInfo.cs
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\obj\Debug\netcoreapp2.0\dnhot.dll
+C:\Users\laurentiu.tamasila\Desktop\boilerplate\obj\Debug\netcoreapp2.0\dnhot.pdb

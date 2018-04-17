@@ -30,72 +30,11 @@ module.exports = (env, argv) =>{
 
         module:{
             rules:[
-                {
-                    test:/\.scss$/,                     
-                    use: ExtractTextPlugin.extract({
-                        fallback: 'style-loader',
-                        use: [
-                            {
-                                loader: 'css-loader',                           
-                                options: {
-                                        modules: true,
-                                        camelCase: true,
-                                        localIdentName: '[name]__[local]__[hash:base64:8]',
-                                        //url: false,
-                                        minimize: true,
-                                        sourceMap: true
-                                }
-                            }, 
-                            {
-                                loader: 'sass-loader',
-                                options: {
-                                    sourceMap: true
-                                }
-                            }
-                        ]
-                    })       
-                },
-                {
-                    test:/\.css$/,                     
-                    use: ExtractTextPlugin.extract({
-                        fallback: 'style-loader',
-                        use: [
-                            {
-                                loader: 'css-loader',                           
-                                options: {
-                                        modules: true,
-                                        camelCase: true,
-                                        localIdentName: '[name]__[local]__[hash:base64:8]',
-                                        minimize: true,
-                                        sourceMap: true
-                                }
-                            }
-                        ]
-                    })                          
-                },
-                {
-                    test:/\.js$/,
-                    exclude:/node_modules/,
-                    use : [{
-                        loader:'babel-loader',
-                        options:{
-                            presets: ['env','stage-2','react'],
-                            //plugins: ["react-hot-loader/babel"]
-                        }
-                    }]
-                },
-                {
-                    test:/\.(jpg|png)$/,
-                    use : [{
-                        loader:'file-loader',
-                        options:{
-                            name:'[name]_[hash:base64:8].[ext]',
-                            outputPath:'public/',
-                            //publicPath:'/'
-                        }
-                    }]
-                }
-
+                require('./webpack.config/loaders/scss.js'),
+                require('./webpack.config/loaders/css.js'),
+                require('./webpack.config/loaders/babel.js'),
+                require('./webpack.config/loaders/file.js')
+            
             ]
         },
         devtool: isProd ? 'source-map' : 'eval-source-map',

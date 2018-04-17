@@ -25,7 +25,7 @@ console.log('process.env.NODE_ENV ',process.env.NODE_ENV)
 console.log('module.hot : ',module.hot)
 //if (module.hot) { module.hot.accept();}
 
-
+/*
 
 if (module.hot) {
     module.hot.accept('./app', () => {
@@ -34,4 +34,4 @@ if (module.hot) {
       // in all other cases - re-require App manually
       renderApp(require('./app').default)
     })
-}
+}*/

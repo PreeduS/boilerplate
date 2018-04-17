@@ -18,7 +18,7 @@ class FileLoader extends React.Component {
         })
     }
     render() {
-        const reloadTest = 'test4';
+        const reloadTest = 'test';
         return (
             <styles.FileLoaderWrapper>
                 <b onClick = {this.counterInc}> inc </b> {this.state.counter} <br />

@@ -3,9 +3,20 @@ import { BrowserRouter as Router, Route, Link, NavLink, Switch } from 'react-rou
 
 //pages
 import BlankTemplateComponent from '../pages/BlankTemplate';
-import FileLoaderComponent from '../pages/FileLoader';
+//import FileLoaderComponent from '../pages/FileLoader';
+var FileLoaderComponent = require('../pages/FileLoader').default;
 
 //<NavLink exact activeClassName = {styles.routeActive} to="/..." >...</NavLink>
+
+if (module.hot) {
+    module.hot.accept('../pages/FileLoader', () => {
+      // if you are using harmony modules ({modules:false})
+      //render(App)
+      // in all other cases - re-require App manually
+     // renderApp(require('../pages/FileLoader').default)
+     FileLoaderComponent = require('../pages/FileLoader').default;
+    })
+}
 
 
 const AppRouter = () =>(
